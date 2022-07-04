@@ -1,20 +1,19 @@
-import { createTheme } from "@mui/material";
+import { createTheme } from '@mui/material';
 
 export default createTheme({
   typography: {
-    fontFamily: "Inter",
+    fontFamily: 'Inter',
   },
   palette: {
+    mode: 'dark',
     primary: {
-      main: "#ff4400",
+      main: '#640000',
     },
     secondary: {
-      main: "#0044ff",
-      contrastText: "#ffcc00",
+      main: '#00217a',
+      contrastText: '#ffcc00',
     },
-    background: {
-      default: "#202020",
-    },
+    background: {},
     contrastThreshold: 3,
     tonalOffset: 0.2,
   },

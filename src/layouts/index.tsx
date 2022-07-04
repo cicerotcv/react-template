@@ -1,10 +1,11 @@
-import { Container } from "@mui/material";
-import { Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom';
+import Header from '../components/header';
 
 export default function Layout() {
   return (
-    <Container>
+    <>
+      <Header />
       <Outlet />
-    </Container>
+    </>
   );
 }
